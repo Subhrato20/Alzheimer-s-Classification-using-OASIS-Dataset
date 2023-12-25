@@ -18,7 +18,51 @@ Alzheimer's disease is a progressive neurodegenerative disorder affecting memory
 - **Green Coding:** All the models were implemented and improved by keeping in mind the factor of efficiency.
 
 **Evaluation:**
-Binary classification models achieve satisfactory accuracy. Multiclass LDA struggles, prompting exploration of alternative models like KNN and Naive Bayes. Ensembling these models improves accuracy significantly, with the mean ensemble achieving 83.17% accuracy in higher dimensions.
+Binary classification models achieve satisfactory accuracy. Multiclass LDA struggles, prompting exploration of alternative models like KNN and Naive Bayes. Ensembling these models improves accuracy significantly, with the mean ensemble achieving 83.17% accuracy in higher dimensions. Below are the outcomes of our ensembled models.
+
+
+<div align="center">
+<div style="text-align: center;">
+    <table>
+        <thead>
+            <tr>
+                <th>Ensemble Evaluation</th>
+                <th colspan="2">Image Size</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>64x32</td>
+                <td>128x64</td>
+            </tr>
+            <tr>
+                <td>Accuracy</td>
+                <td>0.8271</td>
+                <td>0.8318</td>
+            </tr>
+            <tr>
+                <td>Precision</td>
+                <td>0.8357</td>
+                <td>0.8377</td>
+            </tr>
+            <tr>
+                <td>Recall</td>
+                <td>0.8271</td>
+                <td>0.8318</td>
+            </tr>
+            <tr>
+                <td>F1</td>
+                <td>0.8314</td>
+                <td>0.8347</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
 
 **Conclusion:**
 Ensembling the top-performing models enhances Alzheimer's classification accuracy, emphasizing the effectiveness of combining diverse models. The results demonstrate the significance of ensemble modeling in achieving optimal performance across various configurations.
+
+
+** Refer Paper for Full Explanation **
