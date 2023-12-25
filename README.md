@@ -65,4 +65,4 @@ Binary classification models achieve satisfactory accuracy. Multiclass LDA strug
 Ensembling the top-performing models enhances Alzheimer's classification accuracy, emphasizing the effectiveness of combining diverse models. The results demonstrate the significance of ensemble modeling in achieving optimal performance across various configurations.
 
 
-** Refer Paper for Full Explanation **
+**Refer to Paper for Full Explanation**
