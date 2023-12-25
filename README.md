@@ -1,6 +1,6 @@
 # Alzheimer-s-Classification-using-OASIS-Dataset
 
-**Project Title: Alzheimer's Disease Classification Using Brain MRI Scans**
+**Project Title: Alzheimer's Disease Classification**
 
 **Abstract:**
 This project focuses on the development and evaluation of classification models for detecting Alzheimer's disease through Brain Magnetic Resonance Image (MRI) scans. Both multiclass and binary classifications are performed using various machine learning models, including Logistic Regression, Linear Discriminant Analysis (LDA), K-Nearest Neighbors (KNN), and ensemble techniques. The dataset utilized is the OASIS Alzheimer's Dataset obtained from Kaggle, containing multiple brain MRI images across different classes. The project explores downsampling techniques, image modifications (blur and edge detection), and ensemble methods to enhance classification accuracy.
